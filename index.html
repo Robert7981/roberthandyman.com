@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Salazar's Handyman Services</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: rgb(241, 235, 235);
+            padding: 1rem 0;
+            text-align: center;
+        }
+        .header-content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0 2rem;
+        }
+        .header-content h1 {
+            margin: 0;
+        }
+        .contact-info {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end;
+        }
+        nav {
+            background-color: #444;
+            padding: 0.5rem 0;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+        }
+        nav ul li {
+            margin: 0 1rem;
+        }
+        nav ul li a {
+            color: rgb(247, 242, 242);
+            text-decoration: none;
+        }
+        .hero {
+            background-image: url {E:\myweb\image\background.jpg;} /* Add your image path */
+            background-size: cover;
+            background-position: center;
+            color: rgb(9, 25, 240);
+            padding: 4rem 2rem;
+            text-align: center;
+        }
+        .hero h2 {
+            margin-top: 0;
+        }
+        .hero button {
+            background-color: #28a745;
+            border: none;
+            padding: 1rem 2rem;
+            color: white;
+            cursor: pointer;
+            margin: 0.5rem;
+            font-size: 1rem;
+        }
+        .content-section {
+            padding: 2rem;
+            text-align: center;
+        }
+        .content-section h2 {
+            color: #333;
+        }
+        .services {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+        .service-item {
+            background-color: white;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            padding: 1rem;
+            margin: 1rem;
+            flex: 1 1 calc(33% - 2rem);
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        .contact, .testimonial {
+            background-color: white;
+            border-radius: 5px;
+            padding: 2rem;
+            margin: 2rem 0;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1rem 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <h1>Salazar's Handyman Services</h1>
+            <div class="contact-info">
+                <span>Call Us: 09669034518</span>
+                <span>Email: robertjojosalazar@gmail.com</span>
+            </div>
+        </div>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#testimonials">Testimonials</a></li>
+        </ul>
+    </nav>
+    <div class="hero">
+        <h2>Honest & Reliable Handyman Services</h2>
+        <p>We are Team Salazar! A handyman service company that loves to fix things for people that require quality craftsmanship & great customer service.</p>
+        <button>Our Services</button>
+        <button>Book Now</button>
+    </div>
+    <section id="about" class="content-section">
+        <h2>About Me</h2>
+        <p>Hi, I'm Robert Salazar, a professional handyman based in Butuan City, Philippines. With years of experience in the industry, I provide top-notch handyman services with a focus on quality and customer satisfaction. Whether you need repairs, maintenance, or installations, I'm here to help!</p>
+    </section>
+    <section id="services" class="content-section">
+        <h2>Services</h2>
+        <div class="services">
+            <div class="service-item">
+                <h3>Repairs</h3>
+                <p>Expert repair services to fix any issue, big or small.
+                    Any Electronics Divices such as TV, Laptop, Printer etc.
+                </p>
+            </div>
+            <div class="service-item">
+                <h3>Maintenance</h3>
+                <p>Regular maintenance services to keep your home in perfect condition.</p>
+            </div>
+            <div class="service-item">
+                <h3>Installations</h3>
+                <p>Professional installation services for all your home improvement needs.</p>
+            </div>
+        </div>
+    </section>
+    <section id="contact" class="contact content-section">
+        <h2>Contact Information</h2>
+        <p>Phone: 09669034518</p>
+        <p>Email: robertjojosalazar@gmail.com</p>
+        <p>Address: Villanueva Ext. Butuan City, Philippines</p>
+    </section>
+    <section id="testimonials" class="testimonial content-section">
+        <h2>Testimonials</h2>
+        <p>"Robert did an amazing job fixing my kitchen sink. He was professional, quick, and the quality of work was outstanding. Highly recommend!" - Jane Doe</p>
+        <p>"I hired Robert for some maintenance work around my house, and he exceeded my expectations. Friendly and very skilled." - John Smith</p>
+        <p>"Reliable and trustworthy. Robert is my go-to handyman for any home repairs." - Alice Brown</p>
+    </section>
+    <footer>
+        <p>&copy; 2024 Robert Salazar Handyman Services. All rights reserved.</p>
+    </footer>
+</body>
+</html>
